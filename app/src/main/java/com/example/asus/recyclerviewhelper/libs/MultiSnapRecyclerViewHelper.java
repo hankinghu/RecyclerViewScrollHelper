@@ -50,9 +50,9 @@ public class MultiSnapRecyclerViewHelper {
     }
 
     public static class Builder {
-        private SnapGravity mGravity;
-        private int mSnapCount;
-        private float mMillisecondsPerInch;
+        private SnapGravity mGravity=SnapGravity.CENTER;
+        private int mSnapCount=1;
+        private float mMillisecondsPerInch=20;
         private Context mContext;
 
         public Builder(Context context) {
